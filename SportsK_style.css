@@ -39,7 +39,7 @@ nav ul li a {
     border-radius: 50px; 
     box-shadow: 0 0 10px rgba(0,0,0,0.1); 
     height: 300px;
-    width: 800px;
+    width: 500px;
 } 
 
 .sports { 
@@ -57,7 +57,7 @@ nav ul li a {
     width: 220px;
     height: 320px;
     margin-top: 50px;
-    margin-right: 500px;
+    margin-right: 75px;
 }
 
 
@@ -76,6 +76,7 @@ nav ul li a {
     width: 220px;
     height: 320px;
     margin-top: 50px;
+    margin-right: 75px;
 }
 
 .baseball img {
@@ -109,7 +110,62 @@ nav ul li a {
     display: flexbox;
     background-color: beige;
 }
-    
+
+.players {
+    display: flex;
+    padding: 20px; 
+    /* justify-content: baseline; */
+}
+
+.CR7 {
+    background-color: rgba(184, 241, 238, 0.225);
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    width: 120px;
+    height: 180px;
+}
+
+.Aaron {
+    background-color: rgba(184, 241, 238, 0.225);
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    width: 120px;
+    height: 180px;
+}
+
+.Novak {
+    background-color: rgba(184, 241, 238, 0.225);
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    width: 120px;
+    height: 180px;
+}
+
+.CR7 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.Aaron img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.Novak img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
 .news img {
     width: 300px;
     height: 200px;
